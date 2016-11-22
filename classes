@@ -1,0 +1,32 @@
+class Point
+{
+ float x, y;
+ Point (float a, float b)
+ {
+ x = a;
+ y = b;
+ }
+}
+class Ball
+{
+ float rad;
+ Point center;
+ Point contact_point;
+ color col;
+ //More code
+}
+class Stick
+{
+ Point start_p;
+ Point end_p;
+ color col; //color of the pool stick
+ int length; //length of the pool stick
+//More code
+}
+class Table
+{
+ Ball [] b_arr; //the length of this array can be 1 for
+ Ball cue_ball; //iteration 3
+ Stick st;
+ //More code
+}
